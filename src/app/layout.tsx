@@ -2,22 +2,20 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Navbar } from '@/app/components/nav'
-import Footer from '@/app/components/footer'
 import { baseUrl } from '@/app/sitemap'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Jacoy Yue · Portfolio',
+    template: '%s | Jacoy Yue',
   },
-  description: 'This is my portfolio.',
+  description: 'Jacoy Yue - Developer, Designer, Explorer.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Jacoy Yue',
+    description: 'Jacoy Yue - Developer, Designer, Explorer.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Jacoy Yue',
     locale: 'en_US',
     type: 'website',
   },
@@ -45,17 +43,13 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
+        'text-black bg-white dark:text-white dark:bg-[#0a0a0a]',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
-          {children}
-          <Footer />
-        </main>
+      <body className="antialiased font-[family-name:var(--font-geist-sans)]">
+        {children}
       </body>
     </html>
   )
