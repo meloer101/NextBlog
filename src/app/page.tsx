@@ -162,10 +162,10 @@ export default function Page() {
           </h1>
           <div className="mt-12 max-w-2xl space-y-4">
             <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed">
-              Xiamen University — Anthropology & Statistics. I build things at the intersection of code, design, and artificial intelligence. I care about craft, clarity, and shipping work that matters.
+              厦门大学 人类学 统计学 通过技术解放时间和生命，探索未知，追求完美。
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed italic">
-              Basically my excuse to nerd out about systems, pixels, and AI, while pretending it&apos;s all very serious professional work.
+            Xiamen University, Anthropology, Statistics: Through technology, time and life are liberated, unknown territories are explored, and perfection is pursued.
             </p>
           </div>
         </div>
