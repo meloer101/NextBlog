@@ -302,13 +302,14 @@ export default function Page() {
             </div>
             <div className="space-y-6">
               <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed">
-                I&apos;m exploring three things with everything I have: <strong className="text-black dark:text-white font-semibold">Design</strong> — pursuing a level of craft that feels truly perfect. <strong className="text-black dark:text-white font-semibold">Programming</strong> — have you seen Zuckerberg in The Social Network? That&apos;s who I want to be. <strong className="text-black dark:text-white font-semibold">AI</strong> — a new wave is here, and I want to find the real direction within it.
+              我目前聚焦三个方向: <strong className="text-black dark:text-white font-semibold">Design</strong> — 在这个设计被严重低估的环境中，探索如何通过细节传递开发者的诚意与审美，让用户体验真正被尊重。 <strong className="text-black dark:text-white font-semibold">Programming</strong> — h研究如何借助AI实现更快、更高质量的开发。 <strong className="text-black dark:text-white font-semibold">AI</strong> — 在浪潮激荡之际，寻找更具前瞻性的商业模式与产品思维。
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed">
-                Outside of building, I play piano, listen to hip-hop, and lose myself in vibe coding and design. I believe the best work comes from the intersection of obsession and taste.
+              我的爱好：Hip-Hop、钢琴、设计、vibecoding
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed italic">
-                What I carry in my mind is the ancient Greek idea of the gadfly, the metaphor of pushing a boulder uphill day after day. What I aim to do is bring something so perfect it feels like stealing fire from the gods.
+              人生一场，希冀之事乃是将有限的时间用于真正有意义之事，科技发展的唯一目的当是帮“人”简化甚至消除那些琐碎重复。真正的产品，应当看起来美观，用起来舒适，当身边围绕的都是高质量的人，使用的是高质量的工具，自然输出的是高质量的结果，过的是高质量的人生。
+              small minds talk about people,good minds talk about events, great minds talk about ideas.
               </p>
             </div>
           </div>
