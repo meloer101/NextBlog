@@ -1,31 +1,25 @@
 ---
-title: 'Spaces vs. Tabs: The Indentation Debate Continues'
+title: '好的设计——简单与复杂的平衡ep.1'
 publishedAt: '2024-04-08'
-summary: 'Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think.'
+summary: 'Sayless'
 ---
 
-The debate between using spaces and tabs for indentation in coding may seem trivial to the uninitiated, but it is a topic that continues to inspire passionate discussions among developers. This seemingly minor choice can affect code readability, maintenance, and even team dynamics.
+在这个博客中，我想继续用二分法的方法拆解一种理解产品设计的思路——好的设计是简单和复杂的平衡。
 
-Let's delve into the arguments for both sides and consider why this debate remains relevant in the software development world.
+现在来说简单：简单，不是功能少，而是完成一个核心任务所需的认知成本（cognitive load，用户理解和决策所消耗的脑力）尽可能低。说人话就是说“简单”是尽可能减少在必要的功能中，用户的使用步骤，是确保产品有人用，有人支付的手段；
 
-## The Case for Spaces
+简单意味着什么，意味着产品拥有基本的，也大概率是产品的主要功能，那么一个产品在向用户推出自己的主要功能的时候，一定是步骤越少越好，让用户能够比较轻易地越过“认知门槛”和使用门槛。产品的注册流程长一步，用户的转化率就掉几个点。支付路径多一层确认，收入就掉一点。
 
-Advocates for using spaces argue that it ensures consistent code appearance across different editors, tools, and platforms. Because a space is a universally recognized character with a consistent width, code indented with spaces will look the same no matter where it's viewed. This consistency is crucial for maintaining readability and avoiding formatting issues when code is shared between team members or published online.
+复杂又意味着什么，复杂就是产品最基本最主要的功能之外，我们为用户提供的更多的可能性。没有复杂，产品就会变成一个过于单一的工具，复杂展示的是潜力，是“我不只是现在这个样子”，当用户看到“原来我还能这样用”，产品的 perceived value（感知价值）就会上升。这并不是说复杂的功能是没有必要，是可以精简的，相反，属于复杂范畴之内的功能往往是产品订阅和收入的主要来源，最简单的例子就是各种产品的团队（Team）套餐。
 
-Additionally, some programming languages and style guides explicitly recommend spaces for indentation, suggesting a certain number of spaces (often two or four) per indentation level. Adhering to these recommendations can be essential for projects that aim for best practices in code quality and readability.
+另外一个有意思的点是关于用户的非理性消费。很多时候我们会发现自己在生活中往往会因为冲动甚至不经意之间订阅或者支付一些其实本不需要或者可以免费获得的功能。那么我们自然也可以利用这一点来进行盈利。非常简单的例子，在Notion以及Goodnotes上你可以看到诸多模版，有的精美的手帐模版甚至可以卖出50多的天价，但是这实际上就是对着B站教程甚至你可以对着商品主页就可以照着抄出来的东西，所以有时候我们确实极大低估了人的消费欲望，高估了消费时的理性。很多时候人并不是真的需要，而是觉得自己需要。那么作为出售功能和产品的人，我们大可以通过对产品功能的讲述或者外观的讲述等等手段，让用户觉得，我大概率会用到这些。
 
-## The Case for Tabs
+复杂的力大砖飞：通过功能的累加创造生态以及工具台，让用户产生惰性从而选择就在这里一步解决的想法。
 
-On the other side of the debate, proponents of tabs highlight the flexibility that tabs offer. Because the width of a tab can be adjusted in most text editors, individual developers can choose how much indentation they prefer to see, making the code more accessible and comfortable to read on a personal level. This adaptability can be particularly beneficial in teams with diverse preferences regarding code layout.
+那么通过上文我们知道：路径设计，也就是“简单”，是让用户从 A 到 B 最短。边界设计，也就是“复杂”，是让用户看到 B 之外还有 C、D、E。我们便会注意到一个十分重要的问题：**复杂应该何时暴露？**其实说的也就是一个要循序渐进的问题，把“复杂”过于直白的展示出来，不仅容易吓跑用户，而且也容易使得用户在使用的过程中迷失，渐渐忘记产品最核心的功用和价值在哪里。
 
-Tabs also have the advantage of semantic meaning. A tab is explicitly meant to represent indentation, whereas a space is used for many purposes within code. This distinction can make automated parsing and manipulation of code simpler, as tools can more easily recognize and adjust indentation levels without confusing them with spaces used for alignment.
+言归正传，回到付费这个行为。付费往往处于两种动机：1.处于依赖，产生惰性、2.希望得到、或者害怕失去潜力。先说前者，依赖往往有简单和复杂一起作用，这就是为什么很多时候要承担损失地向用户们提供 free trial，其主要目的，或者说至少绝对是有意无意之中向用户展示，并且让用户逐渐产生对产品的依赖，很多公司往往担心会不会因此产生亏损，却忽视了这是产生盈利，尤其是对于初创公司来说相当重要的环节。
 
-## Hybrid Approaches and Team Dynamics
+说句有意思的题外话，在我看来存在一种极其有意思的让用户产生惰性的方法，也就是工具集成上的力大砖飞，通过集成大量的工具使得用户对这个可以站在这里就完成大部分甚至所有任务的工作台产生依赖，当然前提是用户对于工具的性能没有太多的追求。what‘s more，用户在订阅后逐渐对更多的性能产生依赖之后，迁移成本也会指数级上升，这实际上就是通过复杂创造依赖和惰性的过程。
 
-The debate often extends into discussions about hybrid approaches, where teams might use tabs for indentation and spaces for alignment within lines, attempting to combine the best of both worlds. However, such strategies require clear team agreements and disciplined adherence to coding standards to prevent formatting chaos.
-
-Ultimately, the choice between spaces and tabs often comes down to team consensus and project guidelines. In environments where collaboration and code sharing are common, agreeing on a standard that everyone follows is more important than the individual preferences of spaces versus tabs. Modern development tools and linters can help enforce these standards, making the choice less about technical limitations and more about team dynamics and coding philosophy.
-
-## Conclusion
-
-While the spaces vs. tabs debate might not have a one-size-fits-all answer, it underscores the importance of consistency, readability, and team collaboration in software development. Whether a team chooses spaces, tabs, or a hybrid approach, the key is to make a conscious choice that serves the project's needs and to adhere to it throughout the codebase. As with many aspects of coding, communication and agreement among team members are paramount to navigating this classic programming debate.
+再说到后者，希望得到或者说害怕失去潜力，其实很多人便会立刻想到一个词“fomo”，的确，很多时候许多订阅者他们实际上并不知道自己是否真的清楚自己是否需要更高价的订阅，他们只是看到周围的great company都在用（第一个把合作公司放在homepage的真是天才），这是一种使用人群上的跟风式的、社会性的fomo，第二种自然是技术上的fomo，当然在当下就体现在AI&Agent上，不管是使用者还是产品的制造者，都在费九牛二虎之力把自己的产品跟AI扯上关系，那么作为产品的生产者，第一，跟风是必须的，作为生产者，跟上步伐不是选项二是必然，同时给出实质性的产品和功能自然会让公司在逐渐白热化的竞争之中脱颖而出。
